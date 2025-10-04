@@ -11,9 +11,9 @@
         {
           "name": "ArduinoDS4 AVR Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://github.com/Flamethr0wer/ArduinoDS4-AVR/releases/download/v1.0.0/ArduinoDS4-avr-1.0.0.zip",
+          "url": "https://github.com/Flamethr0wer/ArduinoDS4-AVR/releases/download/v1.0.1/ArduinoDS4-avr-1.0.1.zip",
           "archiveFileName": "ArduinoDS4-avr-1.0.1.zip",
           "checksum": "SHA-256:358531d97cd6d42b388558c51b22bea5dd2540aa780a0c629e63345139b5c05a",
           "size": "27741362",
