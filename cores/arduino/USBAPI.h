@@ -43,7 +43,7 @@ typedef unsigned long u32;
 #include "USBDesc.h"
 #include "USBCore.h"
 
-#include "ArduinoDS4/ArduinoDS4_USBDesc.h"
+#include "ArduinoPS4/ArduinoPS4_USBDesc.h"
 
 //================================================================================
 //================================================================================
@@ -182,7 +182,7 @@ int USB_Recv(uint8_t ep, void* data, int len);		// non-blocking
 int USB_Recv(uint8_t ep);							// non-blocking
 void USB_Flush(uint8_t ep);
 
-#include "ArduinoDS4/ArduinoDS4_USBAPI.h"
+#include "ArduinoPS4/ArduinoPS4_USBAPI.h"
 
 #endif
 
