@@ -1,37 +1,37 @@
 {
   "packages": [
     {
-      "name": "arduinods4",
+      "name": "ArduinoPS4",
       "maintainer": "Flamethrower",
       "websiteURL": "https://github.com/Flamethr0wer",
       "help": {
-        "online": "https://github.com/Flamethr0wer/ArduinoDS4"
+        "online": "https://github.com/Flamethr0wer/ArduinoPS4"
       },
       "platforms": [
         {
-          "name": "ArduinoDS4 AVR Boards",
+          "name": "ArduinoPS4 AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/Flamethr0wer/ArduinoDS4-AVR/releases/download/v1.0.0/ArduinoDS4-avr-1.0.0.zip",
-          "archiveFileName": "ArduinoDS4-avr-1.0.0.zip",
+          "url": "https://github.com/Flamethr0wer/ArduinoPS4-AVR/releases/download/v1.0.0/ArduinoPS4-AVR-1.0.0.zip",
+          "archiveFileName": "ArduinoPS4-AVR-1.0.0.zip",
           "checksum": "SHA-256:a5f6fde24a05b4aab8d6683b7e21a4bca98bcf69e5d2e0e348b7e0aa99998220",
           "size": "28015517",
           "help": {
-            "online": "https://github.com/Flamethr0wer/ArduinoDS4"
+            "online": "https://github.com/Flamethr0wer/ArduinoPS4"
           },
           "boards": [
             {
-              "name": "Arduino Leonardo as DS4"
+              "name": "Arduino Leonardo as PS4 controller"
             },
             {
-              "name": "Arduino Leonardo ETH as DS4"
+              "name": "Arduino Leonardo ETH as PS4 controller"
             },
             {
-              "name": "Arduino Micro as DS4"
+              "name": "Arduino Micro as PS4 controller"
             },
             {
-              "name": "Arduino Esplora as DS4"
+              "name": "Arduino Esplora as PS4 controller"
             }
           ],
           "toolsDependencies": []
