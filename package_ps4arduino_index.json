@@ -1,24 +1,24 @@
 {
   "packages": [
     {
-      "name": "ArduinoPS4",
+      "name": "PS4Arduino",
       "maintainer": "Flamethrower",
       "websiteURL": "https://github.com/Flamethr0wer",
       "help": {
-        "online": "https://github.com/Flamethr0wer/ArduinoPS4"
+        "online": "https://github.com/Flamethr0wer/PS4Arduino"
       },
       "platforms": [
         {
-          "name": "ArduinoPS4 AVR Boards",
+          "name": "PS4Arduino AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/Flamethr0wer/ArduinoPS4-AVR/releases/download/v1.0.0/ArduinoPS4-AVR-1.0.0.zip",
-          "archiveFileName": "ArduinoPS4-AVR-1.0.0.zip",
-          "checksum": "SHA-256:fb590462c1d6830c8ad3d766124db142b495518a314f549aa88f2c4b422e0e1c",
-          "size": "28032719",
+          "url": "https://github.com/Flamethr0wer/PS4Arduino-AVR/releases/download/v1.0.0/PS4Arduino-AVR-1.0.0.zip",
+          "archiveFileName": "PS4Arduino-AVR-1.0.0.zip",
+          "checksum": "SHA-256:225e8bf4dbed7cd10874c56cc37b54d341184b2d606840f6d44393cbc6fc9e65",
+          "size": "28035628",
           "help": {
-            "online": "https://github.com/Flamethr0wer/ArduinoPS4"
+            "online": "https://github.com/Flamethr0wer/PS4Arduino"
           },
           "boards": [
             {
