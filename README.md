@@ -17,3 +17,9 @@ A custom AVR core to make HID-capable Arduino boards emulate a PS4-compatible co
    <img width="316" height="246" alt="Screenshot 2025-10-05 172736" src="https://github.com/user-attachments/assets/85a3a07f-4cd6-4faa-9ce4-6c5abbc8c813" />
 
 Once the installation finishes, you're good to go! You can now use the [PS4Arduino library](https://github.com/Flamethr0wer/PS4Arduino).
+
+## Supported boards:
+- Arduino Leonardo
+- Arduino Leonardo ETH
+- Arduino Micro
+- Arduino Esplora
