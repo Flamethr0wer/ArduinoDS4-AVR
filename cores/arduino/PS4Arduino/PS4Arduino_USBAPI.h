@@ -1,7 +1,7 @@
 /*
- *  Project     ArduinoPS4 AVR core
+ *  Project     PS4Arduino AVR core
  *  @author     Flamethrower
- *  @link       github.com/Flamethr0wer/ArduinoPS4_AVR
+ *  @link       github.com/Flamethr0wer/PS4Arduino_AVR
  *  @license    MIT - Copyright (c) 2019 Flamethrower
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,14 +26,14 @@
 
 #include "USBAPI.h"
 
-#ifndef ARDUINOPS4_USBAPI_H
-#define ARDUINOPS4_USBAPI_H
+#ifndef PS4ARDUINO_USBAPI_H
+#define PS4ARDUINO_USBAPI_H
 
 #ifdef USBCON
 
-#define ARDUINOPS4_USB
+#define PS4ARDUINO_USB
 
-class ArduinoPS4USB {
+class PS4ArduinoUSB {
 public:
 	static bool connected(void);
 	static uint8_t available(void);
