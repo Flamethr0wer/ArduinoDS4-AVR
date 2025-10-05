@@ -1,7 +1,7 @@
 /*
- *  Project     ArduinoPS4 AVR core
+ *  Project     PS4Arduino AVR core
  *  @author     Flamethrower
- *  @link       github.com/Flamethr0wer/ArduinoPS4_AVR
+ *  @link       github.com/Flamethr0wer/PS4Arduino_AVR
  *  @license    MIT - Copyright (c) 2019 Flamethrower
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,7 +24,7 @@
  *
  */
 
-#include "ArduinoPS4_USBDesc.h"
+#include "PS4Arduino_USBDesc.h"
 
 #if defined(USBCON)
 
@@ -36,12 +36,12 @@ const DeviceDescriptor USB_DeviceDescriptor = {
 	0x00,           // bDeviceSubClass
 	0x00,           // bDeviceProtocol
 	0x40,           // bMaxPacketSize0
-	0x1532,        // idEVendor
-	0x0401,        // idProduct
-	0x0100,          // bcdDevice
-	0x01,  // iManufacturer
-	0x02,       // iProduct
-	0x00,        // iSerialNumber
+	0x1532,         // idVendor
+	0x0401,         // idProduct
+	0x0100,         // bcdDevice
+	0x01,           // iManufacturer
+	0x02,           // iProduct
+	0x00,           // iSerialNumber
 	0x01,           // bNumConfigurations
 };
 
@@ -49,7 +49,7 @@ const u8 USB_ConfigDescriptor[] = {
 	// Configuration Descriptor
 	0x09,        // bLength
 	0x02,        // bDescriptorType (CONFIGURATION)
-	0x29, 0x00,   // wTotalLength (41)
+	0x29, 0x00,  // wTotalLength (41)
 	0x01,        // bNumInterfaces
 	0x01,        // bConfigurationValue
 	0x00,        // iConfiguration
