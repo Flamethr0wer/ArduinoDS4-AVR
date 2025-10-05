@@ -26,8 +26,8 @@
 
 #include "USBAPI.h"
 
-#ifndef PS4Arduino_USBDESC_H
-#define PS4Arduino_USBDESC_H
+#ifndef PS4ARDUINO_USBDESC_H
+#define PS4ARDUINO_USBDESC_H
 
 #if defined(USBCON)
 
@@ -60,8 +60,8 @@ extern const u8 STRING_SECURITY[] PROGMEM;
 
 #define ISECURITY 4
 
-#define PS4Arduino_TX_ENDPOINT	1
-#define PS4Arduino_RX_ENDPOINT	3
+#define PS4ARDUINO_TX_ENDPOINT	1
+#define PS4ARDUINO_RX_ENDPOINT	3
 
 #endif
 
