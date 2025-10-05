@@ -1,6 +1,6 @@
 # PS4ARDUINO-AVR
 
-A custom AVR core to make HID-capable AVR boards emulate a PS4-compatible controller!
+A custom AVR core to make HID-capable Arduino boards emulate a PS4-compatible controller!
 
 ## How to install
 1) In the Arduino IDE, click `File` > `Preferences...` (or do `Ctrl + ,`)
