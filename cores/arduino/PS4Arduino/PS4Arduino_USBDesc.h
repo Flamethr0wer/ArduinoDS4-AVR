@@ -1,7 +1,7 @@
 /*
- *  Project     ArduinoPS4 AVR core
+ *  Project     PS4Arduino AVR core
  *  @author     Flamethrower
- *  @link       github.com/Flamethr0wer/ArduinoPS4_AVR
+ *  @link       github.com/Flamethr0wer/PS4Arduino_AVR
  *  @license    MIT - Copyright (c) 2019 Flamethrower
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,8 +26,8 @@
 
 #include "USBAPI.h"
 
-#ifndef ARDUINOPS4_USBDESC_H
-#define ARDUINOPS4_USBDESC_H
+#ifndef PS4Arduino_USBDESC_H
+#define PS4Arduino_USBDESC_H
 
 #if defined(USBCON)
 
@@ -60,8 +60,8 @@ extern const u8 STRING_SECURITY[] PROGMEM;
 
 #define ISECURITY 4
 
-#define ARDUINOPS4_TX_ENDPOINT	1
-#define ARDUINOPS4_RX_ENDPOINT	3
+#define PS4Arduino_TX_ENDPOINT	1
+#define PS4Arduino_RX_ENDPOINT	3
 
 #endif
 
